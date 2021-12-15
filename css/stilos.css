@@ -140,8 +140,11 @@ h1{
 	padding: 5px;
 }
 /*----BANNER-----*/
+#banner h1{
+	margin-left: 0px;
+}
 #demo{
-margin-top: 140px;
+margin-top: 50px;
 width: 100%;
 }
 

@@ -85,7 +85,7 @@ main{
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin-bottom: 20px;
-	margin: 20px 110px;
+	margin: 20px 10px;
 	justify-content: space-around;
 }
 #Carta figure{

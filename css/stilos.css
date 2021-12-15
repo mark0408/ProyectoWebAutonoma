@@ -1,0 +1,342 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*body{
+	background-color:brown;
+	display: block;
+}*/
+#fondoReserva
+{
+    
+    background-repeat: no-repeat;
+   
+}
+
+#fondo_sec{
+	
+	padding-top: 95px;
+	width: 90%;
+	height: auto;
+	float: left;
+    margin-left: 5%;
+	background-color:khaki;
+	margin-top:27px;
+    padding-bottom: 30px;
+}
+div{
+	display: block;
+}
+/*-------MENU_BAR_SEC-------*/
+nav{
+	background-color: white;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+   
+}
+#menu1{
+	display: inline-flex;
+ 	margin-left:65%;
+}
+#menu1 a{
+	padding-right: 15px;
+    text-decoration: none;
+	color:gray;
+	font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+header{
+	position: fixed;
+    width: 100%;
+	z-index: 100;
+	background-color: black;
+}
+/*---------MENU_BAR_PRIN----------*/
+#menu{
+	
+	display: block;
+	top: 0;
+	left: 0;
+	margin-right: 0px;
+}
+
+img.logo{
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	margin-left: 50px;
+	width: 260px;
+	height: 80px;
+
+}
+
+#menu a{
+	text-decoration: none;
+	display: inline-block;
+    margin: 10px;
+	margin-left: 80px;
+	padding: 15px;
+	color: white;
+
+}
+#menu a:hover{
+	background-color:khaki;
+	color: black;
+}
+
+#fondo{
+	
+	padding-top: 30px;
+	width: 90%;
+	height: auto;
+    margin-left: 5%;
+	background-color:brown; /*colorr*/
+    padding-bottom: 30px;
+}
+#contenido{
+	
+	padding-top: 50px;
+	width: 90%;
+	height: auto;
+    margin-left: 5%;
+	background-color:khaki; /*colorr*/
+    padding-bottom: 30px;
+}
+.img{
+	width: 200px;
+	height: 20px;
+}
+div.nosotros{
+	width: 90%;
+	margin: auto;
+	display: block;
+    
+}
+div.nosotros h2{
+	margin: 10px;
+}
+div.nosotros p{
+	margin: 10px;
+}
+
+#cabecera{
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+}
+h1{
+	text-align: center;
+}
+.cabe{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+/*----BANNER-----*/
+#demo{
+margin-top: 140px;
+width: 100%;
+}
+
+img.ban{
+	width: 100%;
+	height: 420px;
+
+}
+
+
+hr { 
+   border-top: 3px solid #DF303E; 
+   border-bottom: 2px dashed #DF303E; 
+   border-left:none; 
+   border-right:none; 
+   height: 6px; 
+ } 
+
+#separador
+{
+	padding: 30px;
+	float: inherit;
+}
+
+article{
+	display: block;
+	margin: auto;
+}
+
+h2
+{
+    text-align: center;
+    color: black;
+	padding-top: 20px;
+}
+h3
+{
+    font-family: 'Pacifico', cursive;
+}
+section
+{
+    width: 70%;
+    margin: auto;
+    color: black;
+    display: flex;
+	flex-direction: column;
+}
+
+/*ADIOS ERROR
+div.nosotros
+{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    
+    
+}*/
+article.img
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+   
+}
+article.p
+{
+    float: right;
+    width: 48%;
+    
+}
+/* ADIOS ASIDE
+aside
+{
+	padding-bottom: 20px;
+}
+*/
+
+#separador img{
+display: inline-block;	
+}
+/*----ADIOS FLECHITAS-----*/
+/*----formulario----*/
+form
+{
+    
+    
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 50px;
+    
+}
+table
+{
+    margin: auto;
+}
+table td
+{
+    padding: 9px;
+}
+#reserva
+{
+    margin-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+#reserva:hover
+{
+    background-color: #D84143;
+    transition-duration: 1s;
+    font-size: 20px;
+    color: white;
+}
+/*---------------------------*/
+#imagenes{
+	display: flex;
+	flex-direction: row;
+}
+figure{
+	display:block;
+	
+	
+}
+.car	{
+	width: 150px;
+	height: 100px;
+}
+
+/*----COLABORADORES -----*/
+
+div.colaboradores{
+	width: 150px;
+	height: 200px;
+	margin: 20px;
+	display: inline-block;
+	position: relative; 
+	background-color: indianred;
+	overflow: hidden;
+	
+}
+div.colaboradores img{
+	width: 150px;
+	height: 200px;
+	float: left;
+}
+div.colaboradores p{
+	font-size: 20px;
+	color: black;
+
+}
+div.colaboradores h2{
+	padding-top: 30px;
+	
+	
+}
+#colaboradores{
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+
+
+/*-------Footer ----------------------*/
+
+footer{
+	background-color: #53191A;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+#datos{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+#datos2{
+    margin-top: 50px;
+	margin-left: 100px;
+
+	margin-bottom: 25px;
+	
+}
+footer p{
+	color: white;
+}
+#redes{
+	
+	margin-left: 350px;
+	margin-top: 40px;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}

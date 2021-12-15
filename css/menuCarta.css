@@ -1,0 +1,112 @@
+/* CSS Document */
+
+
+.tarjeta img{
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	text-align: center;
+
+}
+h1{
+	
+	margin-left: 200px;
+	
+}
+#center{
+	display: flex;
+	flex-direction: row;
+	
+	width: 100%;
+
+}
+
+
+
+.ig{
+	width: 30px;
+	height: 20px;
+	
+	
+}
+
+/*---------------------------ARticle ------*/
+#tex{
+	margin-top: 36px;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 7px;
+	
+}
+
+
+.grupo1{
+
+	float:left;
+
+}
+.grupo2{
+	
+	position:absolute;
+}
+.grupo3{
+	
+	position:absolute;
+}
+.grupo4{
+	
+	position:absolute;
+}
+#tex{
+	display: none;
+	padding-left: 50px;
+	position: relative;
+}
+.coloralgo{
+	background-color: #22D9DC;
+}
+div.left
+{
+	width: 90%;
+	margin-bottom: 30px;
+	border-bottom: 2px solid gray;
+}
+div.left figure img{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	
+}
+
+div.left figure {
+	width: 40%;
+	float: left;
+	margin-right: 20px;
+}
+
+div.right
+{
+	width: 90%;
+	margin-bottom: 30px;
+	border-bottom: 2px solid gray;
+}
+div.right figure img{
+	width: 100%;
+	margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+div.right figure {
+	width: 40%;
+	float: right;
+	margin-left: 20px;
+	}
+#fondo{
+	padding-top: 200px;
+	
+}
